@@ -1,0 +1,24 @@
+2022-12-27 22:12:52 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:12:53 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:12:58 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:12:58 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:14:02 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:14:03 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:14:08 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:14:08 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:21:07 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:21:08 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:26:44 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:26:44 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:27:24 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:27:25 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:28:31 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:28:31 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:35:05 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:35:05 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:35:46 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:35:46 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:41:03 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:41:04 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-27 22:42:10 INFO  WebDriverManager:1238 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-27 22:42:10 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Lenovo\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
