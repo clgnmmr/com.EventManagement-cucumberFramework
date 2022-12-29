@@ -28,7 +28,9 @@ public class CreateEventPage {
     @FindBy(xpath = "//mat-error[@id='mat-error-1']")
     public WebElement eventDateError;
     @FindBy(xpath = "//button[@class='mat-focus-indicator mat-flat-button mat-button-base']")
-    public WebElement getEventAddParticipant;
+    public WebElement eventAddParticipant;
+    @FindBy(xpath = "//tr[@class='ng-star-inserted']")
+    public List<WebElement> eventParticipantList;
     @FindBy(xpath = "//p[@class='ng-star-inserted']")
     public WebElement eventAddParticipantError;
 
@@ -41,11 +43,8 @@ public class CreateEventPage {
     public List<WebElement> eventLastNameError;
     @FindBy(xpath = "//mat-error[text()='Please enter email or phone number']")
     public List<WebElement> eventContactError;
-    @FindBy(className = "mat-focus-indicator mat-icon-button mat-button-base mat-warn")
+    @FindBy(xpath = "//button[@class='mat-focus-indicator mat-icon-button mat-button-base mat-warn']")
     public List<WebElement> eventDeleteButton;
-
-
-
 
 
     @FindBy(xpath = "(//button)[4]")

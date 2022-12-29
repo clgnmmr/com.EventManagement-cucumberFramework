@@ -1,4 +1,4 @@
-@login
+@regression @login
 Feature:Login module test with user
 
   Background:join step

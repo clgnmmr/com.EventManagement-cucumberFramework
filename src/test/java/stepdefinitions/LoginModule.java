@@ -8,7 +8,7 @@ import utilities.Driver;
 
 import static utilities.ReusableMethods.*;
 
-public class LoginModul {
+public class LoginModule {
 
     LoginPage event=new LoginPage();
 

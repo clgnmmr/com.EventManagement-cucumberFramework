@@ -8,11 +8,12 @@ import utilities.Driver;
 import java.util.List;
 
 public class EditEventPage {
-    public EditEventPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public EditEventPage() {
+        PageFactory.initElements(Driver.getDriver(), this);
     }
+
     @FindBy(xpath = "//h1")
-    public WebElement createEventTitle;
+    public WebElement editEventTitle;
     @FindBy(xpath = "//input[@id='name']")
     public WebElement eventName;
     @FindBy(xpath = "//mat-error[@id='mat-error-0']")
@@ -27,7 +28,8 @@ public class EditEventPage {
     @FindBy(xpath = "//mat-error[@id='mat-error-1']")
     public WebElement eventDateError;
     @FindBy(xpath = "//button[@class='mat-focus-indicator mat-flat-button mat-button-base']")
-    public WebElement getEventAddParticipant;
+    public WebElement eventAddParticipant;
+
     @FindBy(xpath = "//p[@class='ng-star-inserted']")
     public WebElement eventAddParticipantError;
 
@@ -40,6 +42,8 @@ public class EditEventPage {
     public List<WebElement> eventLastNameError;
     @FindBy(xpath = "//mat-error[text()='Please enter email or phone number']")
     public List<WebElement> eventContactError;
-    @FindBy(className = "mat-focus-indicator mat-icon-button mat-button-base mat-warn")
+    @FindBy(xpath = "//button[@class='mat-focus-indicator mat-icon-button mat-button-base mat-warn']")
     public List<WebElement> eventDeleteButton;
+    @FindBy(xpath = "(//button)[4]")
+    public WebElement updateNewEventButton;
 }
