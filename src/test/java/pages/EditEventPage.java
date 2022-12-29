@@ -7,11 +7,10 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class CreateEventPage {
-    public CreateEventPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
+public class EditEventPage {
+    public EditEventPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(xpath = "//h1")
     public WebElement createEventTitle;
     @FindBy(xpath = "//input[@id='name']")
@@ -43,12 +42,4 @@ public class CreateEventPage {
     public List<WebElement> eventContactError;
     @FindBy(className = "mat-focus-indicator mat-icon-button mat-button-base mat-warn")
     public List<WebElement> eventDeleteButton;
-
-
-
-
-
-    @FindBy(xpath = "(//button)[4]")
-    public WebElement createNewEventButton;
-
 }
