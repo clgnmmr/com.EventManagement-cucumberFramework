@@ -21,47 +21,47 @@ In this project, where we tested the [EventManagement](https://e2e-assessment.pi
 
 <br/>
 
-### [pages package](https://github.com/clgnmmr/com.A101.FinalCase/blob/master/com.HepsiBurada.TestNG/src/test/java/pages/HepsiBuradaPage.java) <br/>
+### [pages package](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/tree/master/src/test/java/pages) <br/>
 In this file, we have classes where we keep the locates of the elements that we will test the site we have.
 To get the locate we want, we create a constructar with the name of the clas we created, and call the <b>PageFactory </b> clade into it and call the driver we created and use the <b> this </b> key, which we make clear. We can create our locates with the <b> FindBy </b> notation so that we can call our locates. We can create methods that can perform the functions we want in it.
 
 ![Screenshot_2](https://user-images.githubusercontent.com/101714396/210014882-2e47f585-8863-4795-95a4-0596e97bea76.jpg)
 
-### [stepdefinitions package](https://github.com/clgnmmr/com.A101.FinalCase/blob/master/com.HepsiBurada.TestNG/src/test/java/tests/HepsiBuradaTest.java) <br/>
+### [stepdefinitions package](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/tree/master/src/test/java/stepdefinitions) <br/>
 Here, on the other hand, we have classes in which we have methods that enable all of our codes to work. We write the codes of the steps we want to do by calling our locations, our driver here.
 We have methods written in the <b> gherking</b> language for the tests to run.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/101714396/210014915-a8135592-0d7d-4d8d-8d7c-f616594b80d7.jpg)
 
 
-### [utilities package](https://github.com/clgnmmr/com.A101.FinalCase/tree/master/com.HepsiBurada.TestNG/src/test/java/utilities) <br/>
+### [utilities package](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/tree/master/src/test/java/utilities) <br/>
 In this file of our helper class, we have classes and methods that we constantly need. We have classes and methods that will make our project more understandable.
 <b> Driver.class </b> , <b> ConfigReader.class</b> , <b> ReusableMehod.class </b> etc. We have files.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/101714396/210014939-8ae75ac3-bf74-4488-8d5d-015977534b18.jpg)
 
 
- [resources package](https://github.com/clgnmmr/com.A101.FinalCase/tree/master/com.HepsiBurada.TestNG/src/test/resources) <br/>
+ [resources package](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/tree/master/src/test/resources) <br/>
  Our file contains the <b> log file </b>, which contains the data (html, txt, etc.) we have received for the Log. <b> report file </b> for reports, <b> screenshot file </b> where the direct screenshot of that locate when error is received
  and there is the <b>testdata file </b> where the information to be asserted is constantly added.
 
 ![Screenshot_5](https://user-images.githubusercontent.com/101714396/210014946-4764db60-5e32-478a-bdc3-fe6a4bec720f.jpg)
 
 
-###  [configuration.properties](https://github.com/clgnmmr/com.A101.FinalCase/blob/master/com.HepsiBurada.TestNG/configuration.properties)
+###  [configuration.properties](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/blob/master/configuration.properties)
 We have variables that we use constantly in our properties file. To use these data, the properties file is created as <b> Key = value </b>. In order to call other classes, the properties file is extracted from the utilities file.
 By calling the <b> ConfigReader </b> class, we can call the information in this file to the places we want, by the method number in it.
 
 ![Screenshot_12](https://user-images.githubusercontent.com/101714396/200138192-5f420192-03e9-4795-8d36-3d124b5ef725.jpg)
 
-### [pom.xml](https://github.com/clgnmmr/com.A101.FinalCase/blob/master/com.HepsiBurada.TestNG/pom.xml)
+### [pom.xml](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/blob/master/pom.xml)
 
 In this file, which contains the information of all our works and codes, we can place the library of the codes we want to use in the <b> dependencies </b> tag and keep the updated information constantly.
 Thanks to this place, we can provide access to all codes.
 
 ![Screenshot_6](https://user-images.githubusercontent.com/101714396/210014975-97343461-a6a7-4d42-bf40-5fb0de0af6c3.jpg)
 
-### [runner package](https://github.com/clgnmmr/com.A101.FinalCase/blob/master/com.HepsiBurada.TestNG/src/hepsiburadaTest.xml)
+### [runner package](https://github.com/clgnmmr/com.EventManagement-cucumberFramework/tree/master/src/test/java/runners)
 This file contains the Cucumber framework annotations.
 Any tests or feature files we want can be run from here.
 
